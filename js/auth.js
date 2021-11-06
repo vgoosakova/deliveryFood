@@ -9,7 +9,6 @@ const inputPassword = document.getElementById('password');
 
 
 const login = (user) => {
-    console.log(user);
     buttonAuth.style.display = 'none';
     modalAuth.style.display ='none';
     buttonOut.style.display = 'flex';
