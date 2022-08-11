@@ -12,7 +12,7 @@ const menu = () => {
     
         restaurantTitle.textContent = restaurant.name
         restaurantRating.textContent = restaurant.stars
-        restaurantPrice.textContent = `От ${restaurant.price} ₽`;
+        restaurantPrice.textContent = `От ${restaurant.price} ₴`;
         restaurantCategory.textContent = restaurant.kitchen
     }
 
@@ -53,7 +53,7 @@ const menu = () => {
                             <span class="button-card-text">В корзину</span>
                             <span class="button-cart-svg"></span>
                         </button>
-                        <strong class="card-price-bold">${price} ₽</strong>
+                        <strong class="card-price-bold">${price} ₴</strong>
                     </div>
                 </div>
             `

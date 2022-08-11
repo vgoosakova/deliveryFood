@@ -51,7 +51,7 @@ const cart = () => {
 
             cartElem.innerHTML = `
                 <span class="food-name">${name}</span>
-                <strong class="food-price">${price} ₽</strong>
+                <strong class="food-price">${price} ₴</strong>
                 <div class="food-counter">
                     <button class="counter-button btn-dec" data-index="${id}">-</button>
                     <span class="counter">${count}</span>
